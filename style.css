@@ -1,0 +1,92 @@
+/* font-family: 'Abril Fatface', cursive; */
+/*font-family: 'Noto Sans', sans-serif; */
+
+#container {
+    width:auto;
+    margin:2%;
+}
+
+body {
+    background-color: #F2EAE1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color:#2C2D48;
+    font-size: 24px;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.logo {
+    font-family: 'Abril Fatface', cursive; 
+}
+
+h1 {
+
+    font:85px 'Abril Fatface', cursive;
+    line-height: 1;
+}
+
+.banner_text p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size:24px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:75%;
+    margin: auto;
+}
+
+.banner_video video {
+    width:100%;
+}
+
+.sub_nav {
+    font-family:'Noto Sans', sans-serif;
+    text-align: center;
+}
+
+ h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size:36px;
+    margin:0px;
+}
+
+p {
+    font-family:'Noto Sans', sans-serif;
+    font-size:18px;
+}
+
+button {
+    background-color:#E9DECF;
+    border-radius:30px;
+    border:1px solid #D1BDAA;
+    font-family:'Noto Sans', sans-serif;
+    font-size:18px;
+    text-transform: uppercase;
+    padding:20px;
+}
+
+button.active {
+    background-color:#2C2D48;
+    color:#ffffff;
+}
+
+/*display grid, columns of 25% each */
+
+.cards {
+    display:grid;
+   
+
+}
+
