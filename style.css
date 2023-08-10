@@ -8,6 +8,8 @@
 
 body {
     background-color: #F2EAE1;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
 }
 
 nav {
@@ -86,7 +88,39 @@ button.active {
 
 .cards {
     display:grid;
-   
+    height:400px;
 
 }
+
+.about h2 {
+    text-align: center;
+}
+
+/*card css*/
+
+/*display grid, columns of 25% each */
+
+.cards {
+   
+    /*this centers the content but provides a margin */
+    margin: 5%;
+    width: auto;
+
+}
+
+/*card area, a nested grid */
+/*one area for letter, one for definition */
+
+.card_area {
+    background-color:#EDDFD1;
+    border:1px solid #D1BDAA;
+    border-radius: 15px;
+    margin:5%;
+    width: auto;   
+   padding:20px;
+  
+
+    
+}
+
 
